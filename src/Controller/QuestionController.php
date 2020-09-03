@@ -31,7 +31,7 @@ class QuestionController extends AbstractController
      */
     public function show($slug, MarkdownParserInterface $markdownParser, CacheInterface $cache)
     {
-        dd($markdownParser);
+        dump($cache);
 
         $answers = [
             'Make sure your cat is sitting `purrrfectly` still 🤣',
